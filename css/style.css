@@ -10,6 +10,12 @@ body {
 	color: #FFFFFF;
 }
 
+button {
+    font-family : inherit;
+    font-size: 1em;
+	font-weight: 700;
+}
+
 nav ul {
 	text-align: center;
 	float: right;	
@@ -34,20 +40,31 @@ nav ul li a {
 	background-position-y: 75%;
 }
 
-.hero h1 {
-	text-align: center;	
+.blue-line {
+	height: 10px;
+	background: #00636c;
+	margin-bottom: 30px;	
+}
+
+.slogan {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 70%;
+}
+
+.slogan h1 {
 	font-size: 75px;	
 	font-weight: 700;
 }
 
-.hero p {
-	text-align: center;
+.slogan p {
 	font-size: 50px;	
 	font-weight: 400;
 }
 
 .bck {
-	padding-top: 30px;
 	background: rgba(0, 0, 0, 0.7);
 	height: 100vh;
 }
@@ -58,4 +75,45 @@ nav ul li a {
 	width: 120px;
 	background: url(../img/logo.png);
 	background-size: cover;
+}
+
+.start {
+	height: 50px;
+	width: 200px;
+	background: none;
+	color: #FFF;
+	border: 2px solid #FFF;
+	cursor: pointer;
+}
+
+.about {
+	height: 500px;
+	color: #000;
+}
+
+.about h2 {
+	font-size: 40px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+.about-flex {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 50px;
+}
+
+.about-photo {
+	background: url(../img/about.jpg);
+	background-size: cover;
+	height: 500px;
+	color: #fff;
+	text-align: center;
+}
+
+.about-photo h2 {
+	padding: 0;
+	font-weight: 300;
 }
