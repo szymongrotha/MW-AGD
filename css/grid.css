@@ -36,6 +36,7 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 }
+
 @media (min-width: 900px) {
     /* For desktop: */
     .col-m-1 {width: 8.33%;}
@@ -51,7 +52,6 @@
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 }
-
 
 @media (max-width: 576px){
     .col-xs-1 {width: 8.33%;}
